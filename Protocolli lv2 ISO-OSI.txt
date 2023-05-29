@@ -1,0 +1,6 @@
+- IEEE 802.11 (WI-FI): E' un protocollo utilizzato per le connessioni wireless in ambienti domestici,pubblici e aziendali. Offre una connessione senza fili per l'accesso ad internet attraverso le reti WLAN(Wireless Local Area Network).
+
+- IEEE 802,3 (Ethernet): E' un protocollo che gestisce la struttura dei frame,la velocità di trasmissione e il flusso di dati sulla rete ethernet. Viene utilizzato per il funzionamento delle reti cablate.
+
+- ARP (Address Resolution Protocol): Si occupa di risolvere gli indirizzi IP in indirizzi MAC all'interno di una rete locale,consentendo ai dispositivi di comunicare tra loro.Facilitan la comunicazione tra dispositivi sulla stessa rete.
+
