@@ -4,3 +4,4 @@
 
 - ARP (Address Resolution Protocol): Si occupa di risolvere gli indirizzi IP in indirizzi MAC all'interno di una rete locale,consentendo ai dispositivi di comunicare tra loro.Facilitan la comunicazione tra dispositivi sulla stessa rete.
 
+-VLAN : E' un  protocollo che permette agli amministratori di rete di suddividere una singola LAN in più segmenti logici, ognuno dei quali può essere configurato come se fosse una propria rete indipendente evitando cosi problemi di latenza in reti molto grandi.
