@@ -1,0 +1,16 @@
+La principale differenza nel traffico di un pacchetto tra HTTP e HTTPS è la presenza di una connessione sicura e crittografata nel caso di HTTPS. 
+Quando un pacchetto viene inviato con HTTP, i dati vengono inviati in forma di testo normale attraverso la rete, il che significa che possono essere letti e interpretati da chiunque riesca ad intercettare il traffico di rete.
+Protocolli di sicurezza:
+-HTTPS(Hypertext transfer protocol) i dati vengono crittografati usando protocolli di sicurezza come SSL (Secure Sockets Layer) o il suo successore TLS (Transport Layer Security), rendendo molto difficile interpretare i dati sensibili che vengono trasmessi.
+Quando si stabilisce una connessione HTTPS, il server invia un certificato SSL/TLS al browser del cliente per autenticare la sua identità. Il certificato è emesso da un'autorità di certificazione affidabile e contiene informazioni sul server,come la chiave pubblica necessaria per stabilire una connessione sicura. 
+-HTTP, (hypertext transfer protocol) non viene effettuata alcuna autenticazione o verifica dell'identità del server.
+
+Utilizzano porte diverse.
+-HTTP utilizza la porta di default 80 per le comunicazioni
+-HTTPS utilizza la porta 443
+Questo consente ai server web di distinguere tra richieste HTTP e HTTPS in arrivo e di gestirle di conseguenza.
+HTTP utilizza la crittografia (es.SHA256) per proteggere i dati.
+In HTTP le richieste e le risposte di solito viaggiano in forma di testo normale e possono essere intercettate e lette da terze parti. 
+Con HTTPS i dati sono crittografati, fornendo un certo livello di privacy e riservatezza tra il client e il server. Questo è particolarmente importante quando si tratta di trasmettere informazioni sensibili, come password o dati finanziari.
+
+In breve l'HTTPS offre una connessione sicura e crittografata tra il client e il server, garantendo la confidenzialità, l'integrità dei dati e l'autenticazione del server a differenza di HTTP.
