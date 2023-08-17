@@ -1,0 +1,22 @@
+Nmap scan report for 192.168.60.102
+Not shown: 992 filtered tcp ports (no-response)
+PORT      STATE  SERVICE      VERSION
+21/tcp filtered  ftp
+22/tcp filtered  ssh
+25/tcp filtered  smtp
+80/tcp filtered  http 
+135/tcp   open   msrpc        Microsoft Windows RPC
+139/tcp   open   netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open   microsoft-ds Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP)
+443/tcp filtered https
+49152/tcp open   msrpc        Microsoft Windows RPC
+49153/tcp open   msrpc        Microsoft Windows RPC
+49154/tcp open   msrpc        Microsoft Windows RPC
+49155/tcp open   msrpc        Microsoft Windows RPC
+49156/tcp open   msrpc        Microsoft Windows RPC
+
+Device type: specialized
+Running: Microsoft Windows 7
+OS CPE: cpe:/o:microsoft:windows_7 cpe:/o:microsoft:windows
+OS details: Microsoft Windows Embedded Standard 7
+Service Info: Host: WIN7; OS: Windows; CPE: cpe:/o:microsoft:windows
