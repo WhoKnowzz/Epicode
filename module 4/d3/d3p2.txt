@@ -1,0 +1,41 @@
+
+WannaCry è un ransomware (un cryptoworm, per essere ancora più specifici), cioè un particolare tipo di malware che rende inaccessibili i dati dei computer colpiti e, per ripristinarli, chiede un riscatto da pagare.
+La peculiarità originale di WannaCry, rispetto ad altri ransomware più “classici” è che si tratta di un malware costituito da due componenti che operano in successione:
+-Un exploit (trattasi di malware realizzati appositamente per sfruttare una “falla” di un sistema) che sfrutta la vulnerabilità SMBv1 per attaccare il computer obbiettivo.
+-Un ransomware vero e proprio che esegue la cifratura dei files.
+Step1: intervenire tempestivamente sul sistema infetto: 
+-isolare il computer infetto dalla rete aziendale per evitare la diffusione del malware su altri dispositivi.
+-disconnettere il computer infetto dalla rete aziendale o dalla connessione Internet per impedire ulteriori comunicazioni con i server di comando e controllo del malware.
+-spegnere il sistema: Spegnere il computer infetto per fermare l'esecuzione del malware.
+
+Una volta isolato il sistema infetto, è possibile valutare diverse opzioni per rimediare alla situazione:
+
+-Ripristinare il sistema da una copia di backup pulita precedente all'infezione per garantire che il malware sia rimosso.
+-Aggiornare il sistema ad una versione supportata di Windows,in quanto Windows 7 non è più supportato da Microsoft e non riceve aggiornamenti di sicurezza.
+-Applicare le patch di sicurezza di emergenza rilasciate da Microsoft per Windows 7 per correggere le vulnerabilità utilizzate da WannaCry.
+-Eseguire una scansione antivirus completa e utilizzare strumenti anti-malware specializzati per rimuovere completamente il malware.
+-Implementare o aggiornare un firewall e un sistema di monitoraggio della rete per identificare comportamenti sospetti e prevenire futuri attacchi.
+
+Ora è importante valutare i vantaggi e gli svantaggi di ciascuna opzione:
+
+Ripristino da backup:
+-Pro: rimuove il malware in modo affidabile e ripristina il sistema a uno stato pulito.
+-Contro: potrebbe comportare la perdita di dati recenti se il backup non è stato eseguito di recente.
+
+Aggiornamento a un sistema operativo supportato:
+-Pro: protegge il sistema da future vulnerabilità, migliora la sicurezza generale.
+-Contro: potrebbe richiedere costi di aggiornamento e formazione per gli utenti.
+
+Installazione di patch:
+-Pro: corregge le vulnerabilità specifiche utilizzate da WannaCry.
+-Contro: non rimuove il malware già presente.
+
+Scansione antivirus e rimozione malware:
+-Pro: rimuove il malware esistente.
+-Contro: potrebbe non ripristinare completamente il sistema, potrebbe perdere dati.
+
+Firewall e monitoraggio:
+-Pro: protegge da futuri attacchi.
+-Contro: richiede tempo e risorse per configurare e mantenere.
+
+La scelta dell'opzione migliore in questo caso dipenderà dalle esigenze specifiche dell'azienda, dalla gravità dell'infezione e dalla disponibilità di risorse.Inoltre, è importante prendere in considerazione misure preventive a lungo termine per evitare futuri attacchi di malware come WannaCry.
