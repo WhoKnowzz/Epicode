@@ -1,0 +1,23 @@
+Una null session è una sessione di rete vuota o non autenticata in cui un utente tenta di accedere ad una share locale o remota senza fornire credenziali di autenticazione.
+Le null session sono vulnerabilità che possono colpire principalmente i sistemi basati su windows,soprattutto le versioni più vecchie,tra alcuni esempi abbiamo:
+-WindowsNT/2000/xp/2003 Server
+-Windows 7
+-Windows server
+Nonostante alcuni di questi sistemi esistano ancora,sono comunque un numero molto piccolo e ridotto rispetto a qualche anno fa.
+Per mitigare o risolvere questo tipo di vulnerabilità possono essere prese in considerazione diverse misure di sicurezza come:
+
+-Aggiornamento SO(dove possibile)
+questa soluzione ha un'efficacia elevata in quanto l'aggiornamento chiude le vulnerabilità note,comprese le null session,ma richiede un effort moderato in quanto richiede un processo di gestione delle patch e il rivvio periodico del sistema.
+
+-Corretta configurazione delle autorizzazioni di condivisione di rete
+anche questa soluzione ha un'efficacia elevata in quanto limitare la autorizzazioni di share riduce esponenzialmente il rischio di accesso non autorizzato.
+Richiede però una pianificazione e configurazione ed inoltre una gestione continua per mantenere l'efficacia.
+
+-Utilizzo di un firewall
+Un firewall può essere efficace nel proteggere dalle connessioni non autorizzate,richiede però una configrazione adeguata e regole specifiche.
+
+-Utilizzo di strumenti di sicurezza quali IPS o IDS.
+gli strumenti di sicurezza ha un'efficacia elevata nel rilevare e prevenire attacchi del genere.La configurazione e la gestione però possono richiedere risorse aggiuntive.
+
+La scelta delle misure di sicurezza da intraprendere dipende molto dalle esigenze dell'azienda e dalla gravità delle vulnerabilità ma anche dalle risorse a disposizione.
+
