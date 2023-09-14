@@ -1,0 +1,28 @@
+L'ARP poisoning è un attacco di tipo MITM(Man In The Middle) in quanto permette di intercettare del traffico su una rete basata su switch.
+Questo tipo di attacco funziona manipolando la tabella ARP inviando risposte ARP non richieste in modo che l'attaccante possa dirottare ed intercettare la comunicazione tra due nodi della rete sul proprio dispositivo.
+I sistemi vulnerabili a questo tipo di attacco possono essere ad esempio:
+-computer e server su una rete locale
+-routers
+-switch
+-server aziendali
+-sistemi operativi
+
+Come azioni di mitigazione per questo attacco possiamo avere:
+-Utilizzo di protocolli di autenticazione e autorizzazione forti.
+ha un efficacia elevata riducendo drasticamente il rischio di accesso non autorizzato. Richiede però tempo e risorse da impiegare.
+-implementazione di politiche di sicurezza delle password robuste.
+
+Abbiamo inoltre alcune azioni da intraprendere per la rilevazione dell'attacco come:
+-utilizzo di strumenti di rilevamento ARP poisoning(dove possibile) per identificare anomalie nella tabella ARP e notificare agli amministratori quando si verificano.
+-esaminare log di rete per rilevare avvisi o segnali ARP poisoning,come l'associazione di IP multipli ad un singolo MAC.
+
+Alcune azioni di annullamento per questo attacco possono essere:
+
+-implementazione di DHCP sicuro:
+ha un'efficacia elevata contro questi attacchi associando gli indirizzi IP in modo sicuro.Richiede però la configiurazione e la gestione del server DHCP.
+
+-disconnessione dell'attaccante:
+isolare fisicamente o disconnettere l'attaccante interromep immediatamente l'attacco,richiede un effort moderato in quando richiede la localizzazione e la disconnessione precisa dell'attaccante.
+
+-ARP cache clearing:
+ha un efficacia temporanea annullando le voci ARP false. Svuotare la cache richiede poco effort in quanto è un operazione rapida,ma richiede un intervento manuale.
