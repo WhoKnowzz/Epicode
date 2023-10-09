@@ -1,0 +1,21 @@
+Attraverso l'analisi sono state rilevati dei problemi con la triade CIA:
+-per i problemi relativi alla riservatezza dei dati possono essere implementate misure di sicurezza come la cifratura e tecniche di controllo degli accessi.
+-l'integrità del dato dipende dalla riservatezza dello stesso. Rendendo "riservato" un dato,magari limitando gli accessi a soli utenti autorizzati,si possono limitare alterazioni malevole del dato stesso.
+-per i problemi relativi alla "availability" di un dato possono essere implementate misure di sicurezza come backup,ed altre misue di sicurezza che garantiscono la disponilità dei dati in situazioni critiche.
+
+
+
+triade CIA:
+
+-Confidenzialità:
+la confidenzialità dei dati si concentra sul garantire l'accesso ai dati SOLO ad utenti autorizzati. Rendere i dati confidenziali pubblici o consentirne l'accesso a persone non autorizzate potrebbe compromettere la sicurezza dei dati stessi. due potenziali minacce per la confidenzialità dei dati possono essere:
+-Comunicazioni non criptate: in questo modo un attacco MITM avrebbe molto successo in quanto lo scambio di dati,non presentando cifratura,è visibile in chiaro.
+-procedure di autenticazione non sicure.
+le soluzioni più ovvie e funzionali sono la criptazione delle comunicazioni e un controllo rigoroso degli accessi per garantire la riservatezza.
+
+-Integrità:
+l'integrità del dato dev'essere sempre garantita per evitare di diffondere dati modificati in modo malevolo. l'integrità è il concetto di mantere e prograggere l'affidabilità e la correttezza del dato. Garantisce che il dato che si riceve sia esattamente quello inviato dal mittente. Dato che l'integrità dipende molto dalla confidenzialità del dato gli attacchi MITM  o l'esecuzione di codice malevolo potrebbero alterare il contenuto del dato molto facilmente se i dati sono accessibili da utenti non autorizzati.
+la misure di sicurezza anche in questo caso possono essere il controllo degli accessi,meccaniscmi di verifica dell'hash o checksum.
+
+-Disponibilità:
+Per disponibilità dei dati s'intende la possibilità di accedere al dato anche in situazioni critiche come crash o errori. Alcuni attacchi come i DDos o Dos ma anche incidenti naturali come terremoti o inondazioni potrebbero rendere indisponibile il dato. Come misure preventive buisogna avere un backup,un sistema anti-denial-of-service per prvenire attacchi Dos e messa in sicurezza della struttura contro eventi esterni.
